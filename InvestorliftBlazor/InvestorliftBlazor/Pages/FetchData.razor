@@ -1,6 +1,7 @@
 ﻿@page "/fetchdata"
 @using InvestorliftBlazor.Data
 @inject WeatherForecastService ForecastService
+@inject DatabaseService DbService
 
 <PageTitle>Weather forecast</PageTitle>
 
@@ -42,6 +43,8 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        House house = new House(DbService);
+        house.Get();
         forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
     }
 }
