@@ -1,15 +1,15 @@
-﻿@page "/fetchdata"
+﻿@page "/"
 @using InvestorliftBlazor.Data
 @inject WeatherForecastService ForecastService
 @inject DatabaseService DbService
 
-<PageTitle>Weather forecast</PageTitle>
+<PageTitle>INVESTORLIFT</PageTitle>
 
-<h1>Weather forecast</h1>
+<h1>INVESTORLIFT</h1>
 
-<p>This component demonstrates fetching data from a service.</p>
+@*<p>This component demonstrates fetching data from a service.</p>*@
 
-@if (forecasts == null)
+@if (Houses == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -18,20 +18,20 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Temp. (C)</th>
-                <th>Temp. (F)</th>
-                <th>Summary</th>
+                <th></th>
+                <th>Title</th>
+                <th>Full Address</th>
+                <th>Price</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in forecasts)
+            @foreach (var house in Houses)
             {
                 <tr>
-                    <td>@forecast.Date.ToShortDateString()</td>
-                    <td>@forecast.TemperatureC</td>
-                    <td>@forecast.TemperatureF</td>
-                    <td>@forecast.Summary</td>
+                    <td>@house.Index</td>
+                    <td>@house.Title</td>
+                    <td>@house.FullAddress</td>
+                    <td>@house.Price</td>
                 </tr>
             }
         </tbody>
@@ -39,13 +39,21 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    //private WeatherForecast[]? forecasts;
+    private List<House> Houses;
+
+    private async Task GetData()
+    {
+        House house = new House(DbService);
+        Houses = await house.Get();
+    }
 
     protected override async Task OnInitializedAsync()
     {
-        House house = new House(DbService);
-        house.Get();
-        forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+
+        //forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+
+        await GetData();
     }
 }
 

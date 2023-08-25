@@ -16,14 +16,13 @@ namespace InvestorliftBlazor.Data
 		{
 			this.configuration = configuration;
 			strConnectionString = configuration.GetConnectionString("DefaultDB");
-
-            Open();
+            con = new SqlConnection(strConnectionString);
         }
 
 		public void Open()
 		{
-			con = new SqlConnection(strConnectionString);
-			con.Open();
+			if(con.State != ConnectionState.Open)
+			    con.Open();
 		}
 
 		public void Close()
@@ -40,6 +39,7 @@ namespace InvestorliftBlazor.Data
             List<T> ret = null;
             try
             {
+                Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = text;
                 cmd.CommandTimeout = TimeOut;
@@ -54,17 +54,60 @@ namespace InvestorliftBlazor.Data
                 {
                     T t = new T();
 
-                    for (int inc = 0; inc < reader.FieldCount; inc++)
+                    for (int i = 0; i < reader.FieldCount; i++)
                     {
                         Type type = t.GetType();
-                        PropertyInfo prop = type.GetProperty(reader.GetName(inc));
-                        prop.SetValue(t, reader.GetValue(inc), null);
+                        PropertyInfo prop = type.GetProperty(reader.GetName(i));
+                        if(prop != null)
+                            prop.SetValue(t, reader.GetValue(i));
                     }
 
                     ret.Add(t);
                 }
+                reader.Close();
             }
             catch
+            {
+                ret = null;
+            }
+
+            return ret;
+        }
+
+        public async Task<List<T>> GetListAsync<T>(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters) where T : class, new()
+        {
+            List<T> ret = null;
+            try
+            {
+                Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = text;
+                cmd.CommandTimeout = TimeOut;
+                cmd.CommandType = cmdType;
+
+                foreach (SqlParameter parameter in sqlParameters)
+                    cmd.Parameters.Add(parameter);
+
+                SqlDataReader reader = await cmd.ExecuteReaderAsync();
+                ret = new List<T>();
+                while (reader.Read())
+                {
+                    T t = new T();
+
+                    for (int i = 0; i < reader.FieldCount; i++)
+                    {
+                        Type type = t.GetType();
+                        string pName = reader.GetName(i);
+                        PropertyInfo prop = type.GetProperty(pName);
+                        if(prop != null)
+                            prop.SetValue(t, reader.GetValue(i));
+                    }
+
+                    ret.Add(t);
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
             {
                 ret = null;
             }
@@ -78,7 +121,8 @@ namespace InvestorliftBlazor.Data
 
             try
 			{
-				SqlCommand cmd = con.CreateCommand();
+                Open();
+                SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = text;
 				cmd.CommandType = commandType;
 
@@ -100,6 +144,7 @@ namespace InvestorliftBlazor.Data
 
             try
             {
+                Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = text;
                 cmd.CommandType = commandType;
@@ -110,6 +155,7 @@ namespace InvestorliftBlazor.Data
                 SqlDataReader reader = await cmd.ExecuteReaderAsync();
                 tbl = new DataTable();
                 tbl.Load(reader);
+                reader.Close();
             }
             catch { }
 
@@ -122,6 +168,7 @@ namespace InvestorliftBlazor.Data
 
             try
             {
+                Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = text;
                 cmd.CommandType = commandType;
@@ -142,6 +189,7 @@ namespace InvestorliftBlazor.Data
         {
             try
             {
+                Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = text;
                 cmd.CommandTimeout = TimeOut;
@@ -162,6 +210,7 @@ namespace InvestorliftBlazor.Data
         {
             try
             {
+                Open();
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = text;
                 cmd.CommandTimeout = TimeOut;

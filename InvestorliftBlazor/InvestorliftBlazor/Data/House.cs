@@ -1,27 +1,28 @@
 ﻿using System;
 using System.Data;
+using System.Linq;
 
 namespace InvestorliftBlazor.Data
 {
 	public class House
 	{
+		public long Index { get; set; }
+		public int Id { get; set; }
+		public string Title { get; set; }
+		public string FullAddress { get; set; }
+		public int Price { get; set; }
+
 		private readonly DatabaseService DbService;
+		public House() { }
+
 		public House(DatabaseService DbService)
 		{
 			this.DbService = DbService;
 		}
 
-		public void Get()
+		public async Task<List<House>> Get()
 		{
-			var tbl = DbService.GetDataTable("SELECT * FROM HOUSE");
-			
-			foreach(DataRow dr in tbl.Rows)
-			{
-				string str = string.Empty;
-				foreach(DataColumn col in tbl.Columns)
-					str += $"| {col.ColumnName}: {dr[col.ColumnName]}";
-				Console.WriteLine(str);
-			}
+			return await DbService.GetListAsync<House>("SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK)");
 		}
 	}
 }
