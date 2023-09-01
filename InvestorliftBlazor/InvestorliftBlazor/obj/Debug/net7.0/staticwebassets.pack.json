@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/homepage.css",
+      "PackagePath": "staticwebassets/css/homepage.css"
+    },
+    {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },

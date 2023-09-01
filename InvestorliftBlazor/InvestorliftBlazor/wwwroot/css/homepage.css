@@ -1,0 +1,42 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    height: 100%;
+}
+
+.mainpage {
+    display: flex;
+}
+
+.leftpage {
+    width: 45%;
+    height:100%;
+}
+
+.leftpagebg {
+    position: absolute;
+    background: url(https://investorlift.com/_nuxt/img/static_map.945f231.jpeg);
+    background-size: cover;
+    width: 45%;
+    height: 100%;
+}
+
+.rightpage {
+    width: 55%;
+}
+
+.listitem {
+    width: 50%;
+    float: left;
+}
+
+.listitemrow {
+    float: right;
+    width: 100%;
+}
+/*
+@media (min-width: 768px){
+    .col-sm-6 {
+        width: 50%;
+    }
+}*/

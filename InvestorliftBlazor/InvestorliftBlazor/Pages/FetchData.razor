@@ -14,43 +14,37 @@
 else
 {
     @*<InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
-        <ul>
-            @foreach (var house in Houses)
-            {
-                <li class="list-group-item">@house.Index: @house.Title - @house.FullAddress (@house.Price)</li>
-            }
+            <ul>
+                @foreach (var house in Houses)
+                {
+                    <li class="list-group-item">@house.Index: @house.Title - @house.FullAddress (@house.Price)</li>
+                }
 
-            The target element that we observe. Once this is reached the callback will be triggered.
-            <li class="list-group-item" hidden id="observerTarget"></li>
-        </ul>
-    </InfiniteScroll>*@
-    <table class="table">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Title</th>
-                    <th>Full Address</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
-                    @foreach (var house in Houses)
-                    {
-                        <tr>
-                            <td>@house.Index</td>
-                            <td>@house.Title</td>
-                            <td>@house.FullAddress</td>
-                            <td>@house.Price</td>
-                        </tr>
-                    }
-                    <div id="observerTarget"></div>
-                </InfiniteScroll>
-            </tbody>
-        </table>
+                The target element that we observe. Once this is reached the callback will be triggered.
+                <li class="list-group-item" hidden id="observerTarget"></li>
+            </ul>
+        </InfiniteScroll>*@
+    <div class="mainpage">
+        <div class="leftpage">
+            <div class="leftpagebg d-flex justify-content-center align-items-center">
+
+            </div>
+        </div>
+        <div class="rightpage">
+            <InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
+                @foreach (var house in Houses)
+                {
+                    <div class="listitem">
+                        <img src="@house.ImageLink" />
+                    </div>
+                }
+                <div class="listitemrow" id="observerTarget"></div>
+            </InfiniteScroll>
+        </div>
+    </div>
 }
 
-<button @onclick="ReloadData">Reload</button>
+@*<button @onclick="ReloadData">Reload</button>*@
 
 @code {
     private House house;
@@ -88,15 +82,15 @@ else
         }
     }
 
-    private async void ReloadData()
-    {
-        Houses = null;
+    //private async void ReloadData()
+    //{
+    //    Houses = null;
 
-        HousesTmp = await house.GetAll();
+    //    HousesTmp = await house.GetAll();
 
-        Houses.AddRange(HousesTmp.Take(20).ToArray());
+    //    Houses.AddRange(HousesTmp.Take(20).ToArray());
 
-        StateHasChanged();
-    }
+    //    StateHasChanged();
+    //}
 }
 
