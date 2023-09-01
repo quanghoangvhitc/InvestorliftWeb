@@ -20,5 +20,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Sve.Blazor.InfiniteScroll" Version="1.0.0-alpha" />
   </ItemGroup>
 </Project>
