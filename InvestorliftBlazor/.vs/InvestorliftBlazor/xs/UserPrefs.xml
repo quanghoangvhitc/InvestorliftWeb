@@ -1,26 +1,31 @@
 ﻿<Properties StartupConfiguration="{7C66EB19-1E3D-4E41-A5F7-E7574EF422AF}|https">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.ItemProperties.InvestorliftBlazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InvestorliftBlazor/Pages/FetchData.razor">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvestorliftBlazor/Pages/Index.razor">
     <Files>
-      <File FileName="InvestorliftBlazor/Program.cs" Line="29" Column="20" />
-      <File FileName="InvestorliftBlazor/Data/DatabaseService.cs" Line="158" Column="32" />
-      <File FileName="InvestorliftBlazor/Pages/FetchData.razor" Line="12" Column="21" />
-      <File FileName="InvestorliftBlazor/Data/House.cs" Line="9" Column="34" />
+      <File FileName="InvestorliftBlazor/Program.cs" Line="1" Column="1" />
+      <File FileName="InvestorliftBlazor/Data/DatabaseService.cs" Line="104" Column="1" />
+      <File FileName="InvestorliftBlazor/Pages/FetchData.razor" Line="52" Column="21" />
+      <File FileName="InvestorliftBlazor/Data/House.cs" Line="25" Column="34" />
+      <File FileName="InvestorliftBlazor/Pages/Counter.razor" Line="1" Column="1" />
+      <File FileName="InvestorliftBlazor/Pages/Index.razor" Line="64" Column="9" />
+      <File FileName="InvestorliftBlazor/Shared/NavMenu.razor" Line="1" Column="1" />
+      <File FileName="InvestorliftBlazor/Shared/MainLayout.razor" Line="18" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InvestorliftBlazor">
             <Node name="InvestorliftBlazor">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Data" expanded="True" />
               <Node name="Pages">
-                <Node name="FetchData.razor" selected="True" />
+                <Node name="Index.razor" selected="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>

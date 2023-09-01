@@ -100,7 +100,12 @@ namespace InvestorliftBlazor.Data
                         string pName = reader.GetName(i);
                         PropertyInfo prop = type.GetProperty(pName);
                         if(prop != null)
-                            prop.SetValue(t, reader.GetValue(i));
+                        {
+                            var val = reader.GetValue(i);
+                            if(val.GetType() != typeof(DBNull))
+                                prop.SetValue(t, reader.GetValue(i));
+
+                        }
                     }
 
                     ret.Add(t);

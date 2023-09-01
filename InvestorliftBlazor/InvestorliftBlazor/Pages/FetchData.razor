@@ -38,20 +38,44 @@ else
     </table>
 }
 
+<button @onclick="ReloadData">Reload</button>
+
 @code {
+    private House house;
     //private WeatherForecast[]? forecasts;
-    private List<House> Houses;
+    private List<House> Houses = null;
 
     private async Task GetData()
     {
-        House house = new House(DbService);
         Houses = await house.Get();
+
+        StateHasChanged();
     }
 
     protected override async Task OnInitializedAsync()
     {
-
+        house = new House(DbService);
         //forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+
+
+    }
+
+    protected override async void OnAfterRender(bool firstRender)
+    {
+        if (firstRender)
+        {
+            //var timer = new Timer(new TimerCallback(_ =>
+            //{
+            //    uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
+            //}), null, 2000, 2000);
+
+            await GetData();
+        }
+    }
+
+    private async void ReloadData()
+    {
+        Houses = null;
 
         await GetData();
     }

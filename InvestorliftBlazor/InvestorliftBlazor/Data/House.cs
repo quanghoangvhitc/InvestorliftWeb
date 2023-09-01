@@ -20,9 +20,9 @@ namespace InvestorliftBlazor.Data
 			this.DbService = DbService;
 		}
 
-		public async Task<List<House>> Get()
+		public async Task<List<House>> Get(int offset = 0, int limit = 10)
 		{
-			return await DbService.GetListAsync<House>("SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK)");
+			return await DbService.GetListAsync<House>("SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK) ORDER BY PublishedDate DESC OFFSET 0 ROWS FETCH NEXT 10 ROWS ONLY;");
 		}
 	}
 }
