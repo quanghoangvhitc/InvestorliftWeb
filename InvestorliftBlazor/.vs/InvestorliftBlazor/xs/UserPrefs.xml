@@ -4,23 +4,24 @@
   <DisabledProjects>
     <String>../../../../../Git Example/Sve-Blazor-InfiniteScroll-master/Sve-Blazor-InfiniteScroll/Sve-Blazor-InfiniteScroll.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.InvestorliftBlazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InvestorliftBlazor/appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvestorliftBlazor/Pages/FetchData.razor">
     <Files>
-      <File FileName="InvestorliftBlazor/Program.cs" Line="13" Column="27" />
-      <File FileName="InvestorliftBlazor/Data/DatabaseService.cs" Line="112" Column="18" />
-      <File FileName="InvestorliftBlazor/Pages/FetchData.razor" Line="33" Column="46" />
-      <File FileName="InvestorliftBlazor/Data/House.cs" Line="13" Column="33" />
-      <File FileName="InvestorliftBlazor/Components/InfiniteScroll.razor" Line="32" Column="1" />
-      <File FileName="InvestorliftBlazor/_Imports.razor" Line="10" Column="33" />
-      <File FileName="InvestorliftBlazor/appsettings.json" Line="1" Column="1" />
+      <File FileName="InvestorliftBlazor/Program.cs" />
+      <File FileName="InvestorliftBlazor/Data/DatabaseService.cs" Line="94" Column="1" />
+      <File FileName="InvestorliftBlazor/Pages/FetchData.razor" Line="14" Column="5" />
+      <File FileName="InvestorliftBlazor/Pages/_Host.cshtml" Line="14" Column="67" />
+      <File FileName="InvestorliftBlazor/Components/InfiniteScroll.razor" Line="17" Column="71" />
+      <File FileName="InvestorliftBlazor/Data/House.cs" Line="30" Column="165" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="InvestorliftBlazor" expanded="True">
+          <Node name="InvestorliftBlazor">
             <Node name="InvestorliftBlazor">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
@@ -28,23 +29,14 @@
               </Node>
               <Node name="Components" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Pages" expanded="True" />
-              <Node name="Shared" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="FetchData.razor" selected="True" />
+              </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" selected="True" />
-            </Node>
-            <Node name="Sve-Blazor-InfiniteScroll" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-                <Node name="SdkDependencies" expanded="True" />
-              </Node>
-              <Node name="Components" expanded="True" />
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
-              </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
