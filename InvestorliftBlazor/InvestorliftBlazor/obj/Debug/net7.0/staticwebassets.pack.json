@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/Observer.js",
+      "PackagePath": "staticwebassets/js/Observer.js"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.InvestorliftBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

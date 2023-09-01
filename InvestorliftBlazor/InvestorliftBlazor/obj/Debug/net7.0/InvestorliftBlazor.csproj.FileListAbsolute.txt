@@ -9,6 +9,11 @@
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Azure.Core.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Azure.Identity.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Humanizer.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.AspNetCore.Authorization.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.AspNetCore.Components.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Forms.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Web.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.AspNetCore.Metadata.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
@@ -17,6 +22,8 @@
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Identity.Client.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Identity.Client.Extensions.Msal.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.IdentityModel.Abstractions.dll
@@ -25,9 +32,11 @@
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.JSInterop.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/System.CodeDom.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Debug/net7.0/System.Drawing.Common.dll
