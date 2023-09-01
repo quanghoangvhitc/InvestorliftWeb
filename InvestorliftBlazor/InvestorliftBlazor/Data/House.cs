@@ -11,8 +11,9 @@ namespace InvestorliftBlazor.Data
 		public string Title { get; set; }
 		public string FullAddress { get; set; }
 		public int Price { get; set; }
+        public string ImageLink { get; set; }
 
-		private readonly DatabaseService DbService;
+        private readonly DatabaseService DbService;
 		public House() { }
 
 		public House(DatabaseService DbService)
