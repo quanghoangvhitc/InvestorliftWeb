@@ -12,6 +12,13 @@ namespace InvestorliftBlazor.Data
 		public string FullAddress { get; set; }
 		public int Price { get; set; }
         public string ImageLink { get; set; }
+        public string WebUrl { get; set; }
+		public string County { get; set; }
+		public string LineAddress { get; set; }
+        public string SqFootage { get; set; }
+        public int BedRooms { get; set; }
+        public double BathRooms { get; set; }
+        public int ARV { get; set; }
 
         private readonly DatabaseService DbService;
 		public House() { }
