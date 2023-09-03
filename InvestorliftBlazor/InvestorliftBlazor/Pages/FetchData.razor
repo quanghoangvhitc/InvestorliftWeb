@@ -3,46 +3,122 @@
 @inject WeatherForecastService ForecastService
 @inject DatabaseService DbService
 
-<h1>INVESTORLIFT</h1>
+<div class="contentpage">
+    <div class="toppage">
+        <div class="toppagerow">
+            <div class="col-sm-6 col-md-6">
+                <a href="mailto:support@investorlift.com">
+                    <i class="fa fa-envelope"></i>
+                    support@investorlift.com
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 socials">
+                <a target="_blank" href="https://twitter.com/investorlift">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a target="_blank" href="http://instagram.com/investorlift">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/investorlift/">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/company/investorlift">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="toppagenav">
+            <div class="col-md-4">
+                <div class="toppagenav-logo">
+                    <a href="/" aria-current="page">
+                        <img src="https://investorlift.com/_nuxt/img/logo.10953de.png" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="toppagenav-not-logged">
+                    <a href="#" class="sign-in">
+                        <i class="fa fa-user"></i> Log In
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 @*<p>This component demonstrates fetching data from a service.</p>*@
 
-@if (Houses == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    @*<InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
-            <ul>
-                @foreach (var house in Houses)
-                {
-                    <li class="list-group-item">@house.Index: @house.Title - @house.FullAddress (@house.Price)</li>
-                }
+@*<InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
+        <ul>
+            @foreach (var house in Houses)
+            {
+                <li class="list-group-item">@house.Index: @house.Title - @house.FullAddress (@house.Price)</li>
+            }
 
-                The target element that we observe. Once this is reached the callback will be triggered.
-                <li class="list-group-item" hidden id="observerTarget"></li>
-            </ul>
-        </InfiniteScroll>*@
-    <div class="mainpage">
-        <div class="leftpage">
-            <div class="leftpagebg d-flex justify-content-center align-items-center">
+            The target element that we observe. Once this is reached the callback will be triggered.
+            <li class="list-group-item" hidden id="observerTarget"></li>
+        </ul>
+    </InfiniteScroll>*@
 
-            </div>
-        </div>
-        <div class="rightpage">
-            <InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
-                @foreach (var house in Houses)
-                {
-                    <div class="listitem">
-                        <img src="@house.ImageLink" />
-                    </div>
-                }
-                <div class="listitemrow" id="observerTarget"></div>
-            </InfiniteScroll>
+<div class="mainpage">
+    <div class="leftpage">
+        <div class="leftpagebg d-flex justify-content-center align-items-center">
+
         </div>
     </div>
-}
+    <div class="rightpage">
+        <div class="rightpagefilter">
+            <label for="name">Search by title</label>
+            <div class="rightpagefilterinput">
+                <InputText id="contentfilter" placeholder="Enter title for search" Value="@filterContent" ValueChanged="ContentChanged" ValueExpression="() => filterContent" />
+                <button @onclick="Filter">Search</button>
+            </div>
+        </div>
+        @if (Houses == null || (Houses != null && Houses.Count == 0))
+        {
+            <div class="contentloading">
+                <div class="lds-spinner"></div>
+            </div>
+        }
+
+        <InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
+            @foreach (var house in Houses)
+            {
+                <a class="listitem d-flex justify-content-center align-items-center"
+                   href="@house.WebUrl">
+                    <img class="imgItem" src="@house.ImageLink" />
+                    <div class="itemText">
+                        <div>
+                            <div class="itemTextRow">@house.County</div>
+                            <div class="itemTextRow">@house.LineAddress</div>
+                            <ul>
+                                <li>
+                                    Area
+                                    <span>@house.SqFootage</span>
+                                </li>
+                                <li>
+                                    Beds
+                                    <span>@house.BedRooms</span>
+                                </li>
+                                <li>
+                                    Baths
+                                    <span>@house.BathRooms</span>
+                                </li>
+                                <li>
+                                    ARV
+                                    <span>@house.ARV</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            }
+            <div class="listitemrow" id="observerTarget"></div>
+        </InfiniteScroll>
+    </div>
+</div>
 
 @*<button @onclick="ReloadData">Reload</button>*@
 
@@ -52,9 +128,35 @@ else
     private List<House> Houses = new List<House>();
     private List<House> HousesTmp = new List<House>();
 
+    //private async Task GetData()
+    //{
+    //    var tmp = await house.Get(Houses.Count, 10);
+    //    Houses.AddRange(tmp);
+    //}
+
+    private string filterContent = string.Empty;
+    private bool IsFilter = false;
+
+    private void ContentChanged(string value)
+    {
+        filterContent = value;
+    }
+
+    private void Filter()
+    {
+        Houses.Clear();
+        if (HousesTmp != null && HousesTmp.Count > 0)
+        {
+            IsFilter = !string.IsNullOrEmpty(filterContent);
+            var filters = HousesTmp.Where(x => x.Title.ToLower().Contains(filterContent.ToLower()));
+            Houses.AddRange(filters);
+        }
+    }
+
     private async Task GetData()
     {
-        Houses.AddRange(HousesTmp.Skip(Houses.Count).Take(10).ToArray());
+        if (!IsFilter)
+            Houses.AddRange(HousesTmp.Skip(Houses.Count).Take(10).ToArray());
     }
 
     protected override async Task OnInitializedAsync()

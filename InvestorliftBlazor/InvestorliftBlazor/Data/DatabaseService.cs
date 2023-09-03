@@ -76,6 +76,7 @@ namespace InvestorliftBlazor.Data
 
         public async Task<List<T>> GetListAsync<T>(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters) where T : class, new()
         {
+            string name = string.Empty;
             List<T> ret = null;
             try
             {
@@ -101,6 +102,7 @@ namespace InvestorliftBlazor.Data
                         PropertyInfo prop = type.GetProperty(pName);
                         if(prop != null)
                         {
+                            name = prop.Name;
                             var val = reader.GetValue(i);
                             if(val.GetType() != typeof(DBNull))
                                 prop.SetValue(t, reader.GetValue(i));
