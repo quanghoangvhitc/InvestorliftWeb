@@ -2,10 +2,6 @@
     height: 100%;
 }
 
-.contentpage {
-    height: 138px;
-}
-
 .toppage {
     position: relative;
     top: 0;
@@ -288,13 +284,6 @@
     object-fit: cover;
     position: relative;
 }
-
-/*
-@media (min-width: 768px){
-    .col-sm-6 {
-        width: 50%;
-    }
-}*/
 
 @media only screen and (max-width: 600px) {
     .toppage {
