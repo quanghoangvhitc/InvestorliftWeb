@@ -2,8 +2,12 @@
     height: 100%;
 }
 
+.headerpage {
+    height: 138px;
+}
+
 .toppage {
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 138px;
@@ -94,14 +98,6 @@
 /*    z-index: 100;*/
 }
 
-.rightpage {
-    width: 55%;
-    height: calc(100% - 120px);
-    position: fixed;
-    right: 0;
-    overflow-y: scroll;
-}
-
 .right {
     padding: 0;
 }
@@ -109,6 +105,8 @@
 .itemview {
     padding: 15px;
     margin: 0px;
+    height: calc(100vh - 238px);
+    overflow-y: auto;
 }
 
 .contentloading {
@@ -339,5 +337,6 @@
     .itemview {
         padding: 0px;
         margin: 0px;
+        height: auto;
     }
 }
