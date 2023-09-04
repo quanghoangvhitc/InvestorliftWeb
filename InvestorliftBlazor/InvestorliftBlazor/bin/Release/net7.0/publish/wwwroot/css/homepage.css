@@ -1,0 +1,343 @@
+﻿html, body {
+    height: 100%;
+}
+
+.toppage {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 138px;
+    z-index: 999;
+    background: #fff;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+}
+
+.toppagerow {
+    background-color: #274abb;
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 60px;
+    width: 100%;
+}
+
+    .toppagerow > div > a {
+        text-decoration: none;
+        transition: color .2s;
+        color: #fff;
+        display: inline-block;
+        padding: 8px 0;
+    }
+
+    .toppagerow > div.socials {
+        text-align: right;
+    }
+
+        .toppagerow > div.socials > a {
+            cursor: pointer;
+            font-size: 18px;
+            padding: 9px 14px 8px;
+        }
+
+            .toppagerow > div.socials > a:hover {
+                background: linear-gradient(0deg,#274abb,#274abb 5%,#fff);
+                color: #274abb;
+            }
+
+.toppagenav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 60px;
+}
+
+.toppagenav-logo {
+    padding: 20px 0;
+}
+
+.toppagenav-not-logged {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+    .toppagenav-not-logged > a {
+        color: #274abb;
+        text-decoration: none;
+        transition: color .2s;
+    }
+
+.mainpage {
+    display: flex;
+}
+
+.leftpage {
+    display: flex;
+    width: 45%;
+    height: calc(100% - 120px);
+    position: fixed;
+}
+
+.leftpagebg {
+    position: fixed;
+    background: url(https://investorlift.com/_nuxt/img/static_map.945f231.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+/*    z-index: 100;*/
+}
+
+.rightpage {
+    width: 55%;
+    height: calc(100% - 120px);
+    position: fixed;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.right {
+    padding: 0;
+}
+
+.itemview {
+    padding: 15px;
+    margin: 0px;
+}
+
+.contentloading {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*spinner*/
+.lds-spinner {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #274abb;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 1.5s linear infinite; /* Safari */
+    animation: spin 1.5s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*spinner*/
+
+.rightpagefilter {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    background-color: #f7f7f7;
+    height: 100px;
+}
+
+.rightpagefilterinput {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.rightpagefilter > label {
+    font-size: 18px;
+}
+
+.rightpagefilterinput > input {
+    flex: 1;
+    margin-right: 10px;
+    background-color: #fcfcfc;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: grey;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 1;
+    outline: none;
+    padding: 0 10px;
+}
+
+.rightpagefilterinput > button {
+    margin-right: 10px;
+}
+
+.listitem {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+    .listitem:hover .itemText > div > ul {
+        opacity: 1;
+        max-height: 300px;
+        transition: max-height 0.4s ease-in, opacity 0.4s ease-in;
+    }
+
+.imgItem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.itemText {
+    color: #ffffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+    .itemText > div {
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: linear-gradient(0deg,#274abb,rgba(39,74,187,.8) 40%,rgba(39,74,187,.1));
+    }
+
+        .itemText > div > ul {
+            list-style-type: none;
+            padding: 0;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            opacity: 0;
+            height: 70px;
+            max-height: 0;
+            align-items: flex-end;
+            transition: max-height 0.4s ease-out, opacity 0.4s ease-out;
+            flex-direction: row;
+        }
+
+            .itemText > div > ul > li {
+                flex: 1;
+                display: inline-block;
+                color: hsla(0,0%,100%,.8);
+            }
+
+                .itemText > div > ul > li > span {
+                    display: block;
+                    color: #fff;
+                }
+
+.itemTextRow {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+
+.listitemrow {
+    float: right;
+    width: 100%;
+    height: 0.5px;
+    margin-bottom: 18px;
+}
+
+.homepage-map {
+    padding: 0;
+}
+
+.img-homepage-map {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .toppage {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: auto;
+        z-index: 999;
+        background: #fff;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .toppagerow {
+        background-color: #274abb;
+        display: flex;
+        flex-direction: row;
+        height: 44px;
+        justify-content: space-between;
+        margin: 0;
+        padding: 4px 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+        .toppagerow > div.socials > a {
+            cursor: pointer;
+            font-size: 14px;
+            padding: 8px 4px 4px;
+        }
+
+    .toppagenav {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 12px;
+    }
+
+    .img-homepage-map {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+    }
+
+    .right {
+        padding: 0px;
+        height: 100vh;
+    }
+
+    .itemview {
+        padding: 0px;
+        margin: 0px;
+    }
+}

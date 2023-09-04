@@ -74,3 +74,12 @@
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Release/net7.0/InvestorliftBlazor.pdb
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Release/net7.0/InvestorliftBlazor.genruntimeconfig.cache
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Release/net7.0/ref/InvestorliftBlazor.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Authorization.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Components.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Components.Forms.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Components.Web.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Metadata.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.Extensions.Options.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.JSInterop.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Newtonsoft.Json.dll
