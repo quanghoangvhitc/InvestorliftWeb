@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
     },
     {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/homepage.css",
+      "PackagePath": "staticwebassets/css/homepage.css"
+    },
+    {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/Observer.js",
+      "PackagePath": "staticwebassets/js/Observer.js"
     },
     {
       "Id": "obj/Release/net7.0/staticwebassets/msbuild.InvestorliftBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
