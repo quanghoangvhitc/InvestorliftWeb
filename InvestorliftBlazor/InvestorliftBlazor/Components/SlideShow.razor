@@ -1,0 +1,68 @@
+﻿<div class="row slide-show">
+    <div class="col-md-12 slide-box">
+        @for (int i = 0; i < component.Count; i++)
+        {
+            <img class="image-slide @cssClass1[i]" src="@imageLinks[i]" />
+        }
+
+        <a class="image-prev" @onclick="() => PlusSlide(true)">&#10094;</a>
+        <a class="image-next" @onclick="() => PlusSlide(false)">&#10095;</a>
+
+        <div class="thumbnail-list">
+            <div class="thumbnail-row">
+                @for (int i = 0; i < component.Count; i++)
+                {
+                    int index = i;
+                    <div class="thumbnail-column">
+                        <img class="image-thumbnail @cssClass2[i]" src="@component[i]" @onclick="() => SetImage(index)" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public List<string> component { get; set; } = new List<string>();
+
+    private List<string> imageLinks { get; set; } = new List<string>();
+    private List<string> cssClass1 { get; set; } = new List<string>();
+    private List<string> cssClass2 { get; set; } = new List<string>();
+    private int currentPosition;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (component != null && component.Count > 0)
+        {
+            component.ForEach(link =>
+            {
+                imageLinks.Add(link.Contains("-th1.") ? link.Replace("-th1.", "-th2.") : link);
+                cssClass1.Add(string.Empty);
+                cssClass2.Add(string.Empty);
+            });
+            await SetImage(0);
+        }
+    }
+
+    private async Task SetImage(int position)
+    {
+        currentPosition = position;
+        for (int i = 0; i < component.Count; i++)
+        {
+            cssClass1[i] = i != currentPosition ? "hide-slide" : "show-slide";
+            cssClass2[i] = i != currentPosition ? string.Empty : "active";
+        }
+        await InvokeAsync(() => this.StateHasChanged());
+    }
+
+    private async Task PlusSlide(bool backwards)
+    {
+        int position;
+        if (backwards)
+            position = currentPosition == 0 ? component.Count - 1 : currentPosition - 1;
+        else
+            position = currentPosition == component.Count - 1 ? 0 : currentPosition + 1;
+        await SetImage(position);
+    }
+}

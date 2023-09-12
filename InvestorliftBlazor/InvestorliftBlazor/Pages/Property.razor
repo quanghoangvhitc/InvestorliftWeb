@@ -1,0 +1,151 @@
+﻿@page "/property/{Id}"
+@using InvestorliftBlazor.Data
+@inject DatabaseService DbService
+@inherits OwningComponentBase<HouseService>
+
+<PageHeader></PageHeader>
+    
+<div class="container fetch-data">
+    <div class="row back-link">
+        <a href="#"><i class="fa fa-arrow-left back-link-symbol" aria-hidden="true"></i>Back to the list </a>
+    </div>
+    @if (house == null)
+    {
+        if (!hasItem)
+        {
+            <h3>Item not found</h3>
+        }
+        else
+        {
+            <div class="col-md-12">
+                <div class="contentloading">
+                    <div class="lds-spinner"></div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-md-12 property-title">
+                <h2>@house.Title</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="row title-block">
+                    <a href="#">
+                        <i class="fa fa-map-marker"></i>
+                        @house.FullAddress
+                    </a>
+                    <div>
+                        <div class="text-info">@house.Statuses</div>
+                        <div class="text-post">Posted at: @house.UpdatedDate.ToString("MMMM dd, yyyy")</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="row list-p">
+                    <div class="col-md-4 col-xs-4 text-black text-label">Price</div>
+                    <div class="col-md-8 col-xs-8 text-price">$@house.Price.ToString("#,###")</div>
+                </div>
+                <div class="row list-pc">
+                    <div class="col-md-4 col-xs-4 text-black text-label">ARV</div>
+                    <div class="col-md-8 col-xs-8 text-price-c">$@house.ARV.ToString("#,###")</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <SlideShow component="images"></SlideShow>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="col-md-12 prop-list">
+                    <div class="row features-row first-type">
+                        <div class="feature-label">
+                            <i class="fa fa-th-large feature-icon" aria-hidden="true"></i>
+                            Sq. Footage
+                        </div>
+                        <div class="feature-value">@house.SqFootage</div>
+                    </div>
+                    <div class="row features-row">
+                        <div class="feature-label">
+                            <i class="fa fa-building feature-icon" aria-hidden="true"></i>
+                            Type
+                        </div>
+                        <div class="feature-value">@house.HouseType</div>
+                    </div>
+                    <div class="row features-row">
+                        <div class="feature-label">
+                            <i class="fa fa-car feature-icon" aria-hidden="true"></i>
+                            Parking
+                        </div>
+                        <div class="feature-value">@house.Parking</div>
+                    </div>
+                    <div class="row features-row">
+                        <div class="feature-label">
+                            <i class="fa fa-calendar feature-icon" aria-hidden="true"></i>
+                            Year build
+                        </div>
+                        <div class="feature-value">@house.YearBuild</div>
+                    </div>
+                    <div class="row features-row">
+                        <div class="feature-label">
+                            <i class="fa fa-area-chart feature-icon" aria-hidden="true"></i>
+                            Lot size
+                        </div>
+                        <div class="feature-value">@house.LotSize</div>
+                    </div>
+                    <div class="row features-row">
+                        <div class="feature-label">
+                            <i class="fa fa-bed feature-icon" aria-hidden="true"></i>
+                            Bedrooms
+                        </div>
+                        <div class="feature-value">@house.BedRooms</div>
+                    </div>
+                    <div class="row features-row">
+                        <div class="feature-label">
+                            <i class="fa fa-bath feature-icon" aria-hidden="true"></i>
+                            Bathrooms
+                        </div>
+                        <div class="feature-value">@house.BathRooms</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 main-info">
+                <div class="main-info-title">Summary</div>
+                <div class="main-info-content">
+                    @((MarkupString)(description ?? string.Empty))
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 main-info">
+                <div class="main-info-title">Location</div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? Id { get; set; }
+
+    private House? house { get; set; }
+    private List<string>? images { get; set; }
+    private string? description { get; set; }
+    private bool hasItem = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (!string.IsNullOrEmpty(Id))
+        {
+            house = await Service.GetById(Id);
+            images = house != null ? await Service.GetImages(Id) : new List<string>();
+            description = house != null ? await Service.GetSummary(Id) : string.Empty;
+            hasItem = house != null;
+        }
+    }
+}

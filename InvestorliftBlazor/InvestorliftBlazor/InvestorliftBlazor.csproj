@@ -28,10 +28,6 @@
     <None Remove="Components\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Components\" />
-    <Folder Include="wwwroot\js\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Remove="wwwroot\js\" />
   </ItemGroup>
 </Project>

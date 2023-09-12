@@ -9,16 +9,26 @@ namespace InvestorliftBlazor.Data
 		public long Index { get; set; }
 		public int Id { get; set; }
 		public string Title { get; set; }
+		public string States { get; set; }
+        public string County { get; set; }
+        public string LineAddress { get; set; }
+        public string Statuses { get; set; }
 		public string FullAddress { get; set; }
 		public int Price { get; set; }
-        public string ImageLink { get; set; }
-        public string WebUrl { get; set; }
-		public string County { get; set; }
-		public string LineAddress { get; set; }
+        public int ARV { get; set; }
         public string SqFootage { get; set; }
+		public string HouseType { get; set; }
+		public string Parking { get; set; }
+		public int YearBuild { get; set; }
+		public string LotSize { get; set; }
         public int BedRooms { get; set; }
         public double BathRooms { get; set; }
-        public int ARV { get; set; }
+        public DateTime UpdatedDate { get; set; }
+        public string ImageLink { get; set; }
+        public string WebUrl { get; set; }
+		public int Hotness { get; set; }
+		public int Views {  get; set; }
+		public DateTime PublishedDate { get; set; }
 
         private readonly DatabaseService DbService;
 		public House() { }
