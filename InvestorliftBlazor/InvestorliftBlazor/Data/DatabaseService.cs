@@ -122,6 +122,86 @@ namespace InvestorliftBlazor.Data
             return ret;
         }
 
+        public T? GetItem<T>(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters) where T: class, new()
+        {
+            string name = string.Empty;
+            T? ret = null;
+            try
+            {
+                Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = text;
+                cmd.CommandTimeout = TimeOut;
+                cmd.CommandType = cmdType;
+
+                foreach (SqlParameter parameter in sqlParameters)
+                    cmd.Parameters.Add(parameter);
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    ret = new T();
+                    while (reader.Read())
+                    {
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            Type type = ret.GetType();
+                            string pName = reader.GetName(i);
+                            PropertyInfo? prop = type.GetProperty(pName);
+                            if (prop != null)
+                            {
+                                name = prop.Name;
+                                var val = reader.GetValue(i);
+                                if (val.GetType() != typeof(DBNull))
+                                    prop.SetValue(ret, reader.GetValue(i));
+                            }
+                        }
+                    }
+                }
+            }
+            catch { ret = null; }
+            return ret;
+        }
+
+        public async Task<T?> GetItemAsync<T>(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters) where T: class, new()
+        {
+            string name = string.Empty;
+            T? ret = null;
+            try
+            {
+                Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = text;
+                cmd.CommandTimeout = TimeOut;
+                cmd.CommandType = cmdType;
+
+                foreach (SqlParameter parameter in sqlParameters)
+                    cmd.Parameters.Add(parameter);
+
+                using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+                {
+                    ret = new T();
+                    while (reader.Read())
+                    {
+                        for (int i = 0; i < reader.FieldCount; i++)
+                        {
+                            Type type = ret.GetType();
+                            string pName = reader.GetName(i);
+                            PropertyInfo? prop = type.GetProperty(pName);
+                            if (prop != null)
+                            {
+                                name = prop.Name;
+                                var val = reader.GetValue(i);
+                                if (val.GetType() != typeof(DBNull))
+                                    prop.SetValue(ret, reader.GetValue(i));
+                            }
+                        }
+                    }
+                }
+            }
+            catch { ret = null; }
+            return ret;
+        }
+
         public DataTable GetDataTable(string text, CommandType commandType = CommandType.Text, params SqlParameter[] sqlParameters)
 		{
 			DataTable tbl = null;
@@ -233,6 +313,39 @@ namespace InvestorliftBlazor.Data
                 return -1;
             }
         }
-    }
+
+        public object ExecuteScalar(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters)
+        {
+            try
+            {
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = text;
+                cmd.CommandTimeout = TimeOut;
+                cmd.CommandType = cmdType;
+
+                foreach (SqlParameter parameter in sqlParameters)
+                    cmd.Parameters.Add(parameter);
+
+                return cmd.ExecuteScalar();
+            }
+            catch { return null; }
+        }
+
+        public async Task<object?> ExecuteScalarAsync(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters)
+        {
+            try
+            {
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = text;
+                cmd.CommandTimeout = TimeOut;
+                cmd.CommandType = cmdType;
+
+                foreach (SqlParameter parameter in sqlParameters)
+                    cmd.Parameters.Add(parameter);
+
+                return await cmd.ExecuteScalarAsync();
+            }
+            catch { return null; }
+        }    }
 }
 

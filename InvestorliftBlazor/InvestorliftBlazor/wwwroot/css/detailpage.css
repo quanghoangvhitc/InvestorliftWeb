@@ -1,0 +1,183 @@
+﻿.title-bar {
+    background: linear-gradient(180deg,#f7f7f7 0,hsla(0,0%,100%,.5));
+    padding: 30px 0 30px;
+    position: relative;
+    font-family: "Varela Round";
+}
+
+.back-link {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 18px;
+    font-family: "Varela Round";
+}
+
+.back-link a {
+    outline: none!important;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: color .2s;
+    color: #274abb;
+}
+
+.back-link a:hover {
+    color: black;
+}
+
+.back-link-symbol {
+    padding-right: 10px!important;
+}
+
+.property-title {
+    padding-bottom: 40px;
+}
+
+.property-title h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 1px 0;
+}
+
+.title-block {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+}
+
+.title-block a {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    line-height: 24px;
+    position: relative;
+    color: #888;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.title-block a:hover {
+    color: black;
+}
+
+.text-info {
+    color: #00a494;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text-post {
+    color: #888;
+    padding-bottom: 10px;
+}
+
+.list-p {
+    padding-bottom: 15px;
+    padding-left: 12px;
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+.list-pc {
+    padding-bottom: 12px;
+    padding-left: 12px;
+    line-height: 24px;
+}
+
+.text-label {
+    font-size: 20px;
+    padding-left: 0!important;
+}
+
+.text-price {
+    text-align: right;
+    font-size: 28px;
+    color: #274abb;
+    padding-right: 10px;
+}
+
+.text-price-c {
+    text-align: right;
+    font-size: 24px;
+    color: #274abb;
+    padding-right: 10px;
+}
+
+.prop-list {
+    border-bottom: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 10px;
+    min-height: 1px;
+    position: relative;
+}
+
+.features-row {
+    border-bottom: 0 solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-type {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.feature-label {
+    width: 66.66666667%;
+    height: 27px;
+    float: left;
+    min-height: 1px;
+    position: relative;
+    padding-right: 0!important;
+    padding-left: 0!important;
+    color: #707070;
+}
+
+.feature-icon {
+    width: 1em;
+    height: 1em;
+    color: #1657a0;
+    display: inline-block;
+    font-size: inherit;
+    margin-right: 10px;
+}
+
+.feature-value {
+    width: 33.33333333%;
+    height: 27px;
+    float: left;
+    text-align: right;
+    color: #333;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+
+.main-info {
+    padding-bottom: 10px;
+    font-family: "Varela Round";
+}
+
+.main-info-title {
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    box-sizing: border-box;
+    color: #707070;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.main-info-content {
+    color: #333;
+    padding-top: 10px;
+    font-size: 15px;
+}
