@@ -3,46 +3,40 @@
     <String>../../../../../Git Example/Sve-Blazor-InfiniteScroll-master/Sve-Blazor-InfiniteScroll/Sve-Blazor-InfiniteScroll.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.InvestorliftBlazor PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/Data/DatabaseService.cs" relfile="InvestorliftBlazor/Data/DatabaseService.cs" line="118" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="InvestorliftBlazor/Pages/Index.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="InvestorliftBlazor/Pages/FetchData.razor">
     <Files>
       <File FileName="InvestorliftBlazor/Program.cs" />
-      <File FileName="InvestorliftBlazor/Data/DatabaseService.cs" Line="118" Column="1" />
-      <File FileName="InvestorliftBlazor/Pages/FetchData.razor" Line="64" Column="32" />
-      <File FileName="InvestorliftBlazor/wwwroot/css/homepage.css" Line="4" Column="1" />
-      <File FileName="InvestorliftBlazor/Components/InfiniteScroll.razor" Line="1" Column="1" />
-      <File FileName="InvestorliftBlazor/Data/House.cs" Line="1" Column="1" />
-      <File FileName="InvestorliftBlazor/Pages/_Host.cshtml" Line="8" Column="7" />
-      <File FileName="InvestorliftBlazor/Pages/Index.razor" Line="6" Column="22" />
+      <File FileName="InvestorliftBlazor/Data/DatabaseService.cs" />
+      <File FileName="InvestorliftBlazor/Data/House.cs" />
+      <File FileName="InvestorliftBlazor/Pages/Index.razor" />
+      <File FileName="InvestorliftBlazor/Components/SlideShow.razor" />
+      <File FileName="InvestorliftBlazor/Data/State.cs" />
+      <File FileName="InvestorliftBlazor/Pages/FetchData.razor" Line="56" Column="56" />
+      <File FileName="InvestorliftBlazor/wwwroot/css/homepage.css" />
+      <File FileName="InvestorliftBlazor/Data/FilterObject.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="InvestorliftBlazor" expanded="True">
-            <Node name="InvestorliftBlazor">
-              <Node name="Components" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Pages">
-                <Node name="Index.razor" selected="True" />
+          <Node name="InvestorliftBlazor">
+            <Node name="InvestorliftBlazor" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="FetchData.razor" selected="True" />
               </Node>
-              <Node name="wwwroot">
-                <Node name="css">
-                  <Node name="bootstrap" expanded="True" />
-                </Node>
+              <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True">
                 <Node name="js" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
