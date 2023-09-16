@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "InvestorliftBlazor/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "7.0.11",
           "Microsoft.AspNetCore.Authentication.Google": "7.0.11",
           "Microsoft.AspNetCore.Components": "7.0.10",
           "Microsoft.AspNetCore.Components.Web": "7.0.10",
@@ -61,6 +62,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/7.0.11": {
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.42502"
           }
         }
       },
@@ -187,22 +196,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "5.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "5.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "5.0.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "5.0.1.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -750,6 +759,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/7.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fVcho8jdLHdgilHs3kYix/rdiK8sFrL7Klrtkm+Bge1o8ZGPQaUEPlQ18Kqv8tGBcCwM1gQ+pXmyQrbPiVHUgw==",
+      "path": "microsoft.aspnetcore.authentication.facebook/7.0.11",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.7.0.11.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Google/7.0.11": {
       "type": "package",

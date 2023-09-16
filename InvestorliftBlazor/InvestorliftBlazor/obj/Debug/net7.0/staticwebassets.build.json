@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E0JvGCz45iSq27TqqgyxWULAuOizOD+4jOFR9APjVoI=",
+  "Hash": "FDnEf7FOP5ypowBPujPLinvTZORGmjNNE2HV5ySAo+Q=",
   "Source": "InvestorliftBlazor",
   "BasePath": "_content/InvestorliftBlazor",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "InvestorliftBlazor\\wwwroot",
+      "Name": "InvestorliftBlazor/wwwroot",
       "Source": "InvestorliftBlazor",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\InvestorliftBlazor.styles.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/bundle/InvestorliftBlazor.styles.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "InvestorliftBlazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\bundle\\InvestorliftBlazor.styles.css"
+      "OriginalItemSpec": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/bundle/InvestorliftBlazor.styles.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\InvestorliftBlazor.bundle.scp.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/projectbundle/InvestorliftBlazor.bundle.scp.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "InvestorliftBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\InvestorliftBlazor.bundle.scp.css"
+      "OriginalItemSpec": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/projectbundle/InvestorliftBlazor.bundle.scp.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\detailpage.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/detailpage.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/detailpage.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\detailpage.css"
+      "OriginalItemSpec": "wwwroot/css/detailpage.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\css\\font-awesome.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/css/font-awesome.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/css/font-awesome.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\css\\font-awesome.css"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/css/font-awesome.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\css\\font-awesome.css.map",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/css/font-awesome.css.map",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/css/font-awesome.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\css\\font-awesome.css.map"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/css/font-awesome.css.map"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\css\\font-awesome.min.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/css/font-awesome.min.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -150,30 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\css\\font-awesome.min.css"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/css/font-awesome.min.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\FontAwesome.otf",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.eot",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/font-awesome/fonts/FontAwesome.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\fonts\\FontAwesome.otf"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.eot",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -184,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.eot"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/fonts/fontawesome-webfont.eot"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.svg",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -201,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.svg"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/fonts/fontawesome-webfont.svg"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.ttf",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -218,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.woff",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -235,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.woff"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/fonts/fontawesome-webfont.woff"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.woff2",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/font-awesome/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -252,13 +235,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.woff2"
+      "OriginalItemSpec": "wwwroot/css/font-awesome/fonts/fontawesome-webfont.woff2"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\homepage.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/FontAwesome.otf",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/font-awesome/fonts/FontAwesome.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/font-awesome/fonts/FontAwesome.otf"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/homepage.css",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/homepage.css",
       "AssetKind": "All",
@@ -269,115 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\homepage.css"
+      "OriginalItemSpec": "wwwroot/css/homepage.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
-      "BasePath": "_content/InvestorliftBlazor",
-      "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "InvestorliftBlazor",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -388,13 +286,115 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/ICON-LICENSE",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/README.md",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\site.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/site.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\slide-show.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/slide-show.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "css/slide-show.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\slide-show.css"
+      "OriginalItemSpec": "wwwroot/css/slide-show.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\fancybox\\jquery.fancybox.css",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/fancybox/jquery.fancybox.css",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "fancybox/jquery.fancybox.css",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fancybox\\jquery.fancybox.css"
+      "OriginalItemSpec": "wwwroot/fancybox/jquery.fancybox.css"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\fancybox\\jquery.fancybox.js",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/fancybox/jquery.fancybox.js",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "fancybox/jquery.fancybox.js",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fancybox\\jquery.fancybox.js"
+      "OriginalItemSpec": "wwwroot/fancybox/jquery.fancybox.js"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\favicon.png",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/favicon.png",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot/favicon.png"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/bootstrap/js/bootstrap.min.js",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "js/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\bootstrap\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/js/bootstrap/js/bootstrap.min.js"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\jquery\\jquery.min.js",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/jquery/jquery.min.js",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "js/jquery/jquery.min.js",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\jquery\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot/js/jquery/jquery.min.js"
     },
     {
-      "Identity": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\Observer.js",
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/Observer.js",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
       "BasePath": "_content/InvestorliftBlazor",
       "RelativePath": "js/Observer.js",
       "AssetKind": "All",
@@ -558,7 +558,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Observer.js"
+      "OriginalItemSpec": "wwwroot/js/Observer.js"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/SlideShow.js",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "js/SlideShow.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/SlideShow.js"
     }
   ]
 }

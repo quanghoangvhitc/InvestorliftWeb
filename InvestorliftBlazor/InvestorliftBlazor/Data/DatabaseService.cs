@@ -74,6 +74,55 @@ namespace InvestorliftBlazor.Data
             return ret;
         }
 
+        public async Task<List<T>> GetListObjectAsync<T>(string text, CommandType cmdType = CommandType.Text, CancellationToken cancellationToken = default, params SqlParameter[] sqlParameters) where T : class, new()
+        {
+            string name = string.Empty;
+            List<T> ret = null;
+            try
+            {
+                Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandText = text;
+                cmd.CommandTimeout = TimeOut;
+                cmd.CommandType = cmdType;
+
+                foreach (SqlParameter parameter in sqlParameters)
+                    cmd.Parameters.Add(parameter);
+
+                SqlDataReader reader = await cmd.ExecuteReaderAsync(cancellationToken: cancellationToken);
+
+                ret = new List<T>();
+                while (reader.Read())
+                {
+                    T t = new T();
+
+                    for (int i = 0; i < reader.FieldCount; i++)
+                    {
+                        Type type = t.GetType();
+                        string pName = reader.GetName(i);
+                        PropertyInfo prop = type.GetProperty(pName);
+                        if (prop != null)
+                        {
+                            name = prop.Name;
+                            var val = reader.GetValue(i);
+                            if (val.GetType() != typeof(DBNull))
+                                prop.SetValue(t, reader.GetValue(i));
+
+                        }
+                    }
+
+                    ret.Add(t);
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                ret = null;
+            }
+
+            return ret;
+        }
+
         public async Task<List<T>> GetListAsync<T>(string text, CommandType cmdType = CommandType.Text, params SqlParameter[] sqlParameters) where T : class, new()
         {
             string name = string.Empty;

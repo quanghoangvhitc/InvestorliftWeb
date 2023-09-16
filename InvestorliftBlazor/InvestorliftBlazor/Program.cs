@@ -13,25 +13,25 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<DatabaseService>();
 builder.Services.AddSingleton<HouseService>();
-builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-    .AddCookie()
-    .AddGoogle(options =>
-    {
-        IConfigurationSection googleAuthNSection = config.GetSection("Authentication:Google");
-        options.ClientId = googleAuthNSection["ClientId"];
-        options.ClientSecret = googleAuthNSection["ClientSecret"];
+//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+//    .AddCookie()
+//    .AddGoogle(options =>
+//    {
+//        IConfigurationSection googleAuthNSection = config.GetSection("Authentication:Google");
+//        options.ClientId = googleAuthNSection["ClientId"];
+//        options.ClientSecret = googleAuthNSection["ClientSecret"];
 
-        options.ClaimActions.MapJsonKey("urn:google:picture", "picture", "url");
+//        options.ClaimActions.MapJsonKey("urn:google:picture", "picture", "url");
 
-    })
-    .AddFacebook(options =>
-    {
-        IConfigurationSection FBAuthNSection = config.GetSection("Authentication:FB");
-        options.ClientId = FBAuthNSection["ClientId"];
-        options.ClientSecret = FBAuthNSection["ClientSecret"];
-    });
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<IHttpContextAccessor>();
+//    })
+//    .AddFacebook(options =>
+//    {
+//        IConfigurationSection FBAuthNSection = config.GetSection("Authentication:FB");
+//        options.ClientId = FBAuthNSection["ClientId"];
+//        options.ClientSecret = FBAuthNSection["ClientSecret"];
+//    });
+//builder.Services.AddHttpContextAccessor();
+//builder.Services.AddScoped<IHttpContextAccessor>();
 
 var app = builder.Build();
 
