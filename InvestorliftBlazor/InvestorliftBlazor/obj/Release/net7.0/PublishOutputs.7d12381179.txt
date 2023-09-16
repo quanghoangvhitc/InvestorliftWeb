@@ -1,11 +1,14 @@
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/InvestorliftBlazor
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/appsettings.Development.json
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/appsettings.json
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/libman.json
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/InvestorliftBlazor.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/InvestorliftBlazor.runtimeconfig.json
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/InvestorliftBlazor.pdb
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Azure.Core.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Azure.Identity.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Microsoft.AspNetCore.Authentication.Google.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Microsoft.AspNetCore.Authorization.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Microsoft.AspNetCore.Components.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/publish/Microsoft.AspNetCore.Components.Forms.dll

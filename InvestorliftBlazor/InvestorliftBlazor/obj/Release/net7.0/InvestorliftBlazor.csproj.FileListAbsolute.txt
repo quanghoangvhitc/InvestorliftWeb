@@ -83,3 +83,6 @@
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.Extensions.Options.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.JSInterop.dll
 /Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Newtonsoft.Json.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/libman.json
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/bin/Release/net7.0/Microsoft.AspNetCore.Authentication.Google.dll

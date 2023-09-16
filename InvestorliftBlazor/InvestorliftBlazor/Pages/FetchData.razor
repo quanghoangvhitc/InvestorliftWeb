@@ -72,7 +72,7 @@
                         <InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
                             @foreach (var house in Houses)
                             {
-                                <a class="col-md-6 listitem d-flex justify-content-center align-items-center" href="@house.WebUrl">
+                                <a class="col-md-6 listitem d-flex justify-content-center align-items-center" href="/property/@house.Id">
                                     <img class="imgItem" src="@house.ImageLink" />
                                     <div class="itemText">
                                         <div>
