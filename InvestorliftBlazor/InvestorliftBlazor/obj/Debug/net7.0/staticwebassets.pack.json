@@ -101,12 +101,28 @@
       "PackagePath": "staticwebassets\\css\\slide-show.css"
     },
     {
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\fancybox\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\fancybox\\jquery.fancybox.css"
+    },
+    {
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\fancybox\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\fancybox\\jquery.fancybox.js"
+    },
+    {
       "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
       "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\Observer.js",
       "PackagePath": "staticwebassets\\js\\Observer.js"
+    },
+    {
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery.min.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.InvestorliftBlazor.Microsoft.AspNetCore.StaticWebAssets.props",

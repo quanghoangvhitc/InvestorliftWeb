@@ -3,9 +3,31 @@
   "defaultProvider": "cdnjs",
   "libraries": [
     {
-      "provider": "cdnjs",
       "library": "font-awesome@4.7.0",
       "destination": "wwwroot/css/font-awesome/"
+    },
+    {
+      "library": "jquery@3.7.1",
+      "destination": "wwwroot/js/jquery/",
+      "files": [
+        "jquery.min.js"
+      ]
+    },
+    {
+      "library": "fancybox@3.5.7",
+      "destination": "wwwroot/fancybox/",
+      "files": [
+        "jquery.fancybox.css",
+        "jquery.fancybox.js"
+      ]
+    },
+    {
+      "provider": "cdnjs",
+      "library": "bootstrap@5.3.2",
+      "destination": "wwwroot/js/bootstrap/",
+      "files": [
+        "js/bootstrap.min.js"
+      ]
     }
   ]
 }

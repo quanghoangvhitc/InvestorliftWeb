@@ -1,46 +1,73 @@
-﻿<div class="container-fluid d-flex flex-column">
-    <div class="row">
-        <div class="toppage">
-            <div class="toppagerow">
-                <div class="col-sm-6 col-md-6">
-                    <a href="mailto:support@investorlift.com">
-                        <i class="fa fa-envelope"></i>
-                        support@investorlift.com
-                    </a>
-                </div>
+﻿<div class="row headerpage">
+    <div class="toppage">
+        <div class="toppagerow">
+            <div class="col-sm-6 col-md-6">
+                <a href="mailto:support@investorlift.com">
+                    <i class="fa fa-envelope"></i>
+                    support@investorlift.com
+                </a>
+            </div>
 
-                <div class="col-sm-6 col-md-6 socials">
-                    <a target="_blank" href="https://twitter.com/investorlift">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a target="_blank" href="http://instagram.com/investorlift">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                    <a target="_blank" href="https://www.facebook.com/investorlift/">
-                        <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a target="_blank" href="https://www.linkedin.com/company/investorlift">
-                        <i class="fa fa-linkedin-square"></i>
+            <div class="col-sm-6 col-md-6 socials">
+                <a target="_blank" href="https://twitter.com/investorlift">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a target="_blank" href="http://instagram.com/investorlift">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/investorlift/">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/company/investorlift">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="toppagenav">
+            <div class="col-md-4">
+                <div class="toppagenav-logo">
+                    <a href="/" aria-current="page">
+                        <img src="https://investorlift.com/_nuxt/img/logo.10953de.png" />
                     </a>
                 </div>
             </div>
-            <div class="toppagenav">
-                <div class="col-md-4">
-                    <div class="toppagenav-logo">
-                        <a href="/" aria-current="page">
-                            <img src="https://investorlift.com/_nuxt/img/logo.10953de.png" />
-                        </a>
-                    </div>
-                </div>
 
-                <div class="col-md-8">
-                    <div class="toppagenav-not-logged">
-                        <a href="#" class="sign-in">
-                            <i class="fa fa-user"></i> Log In
-                        </a>
+            <div class="col-md-8">
+                <div class="toppagenav-not-logged">
+                    <a href="#login" class="sign-in" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                        <i class="fa fa-user"></i> Log In
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalLoginLabel">Sign In</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row pb-3">
+                        <button class="btn btn-outline-danger">
+                            <i class="fa fa-google"></i>Sign in with Google
+                        </button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-outline-primary">
+                            <i class="fa fa-facebook"></i>Sign in with Facebook
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+@code {
+    private bool loggedIn { get; set; } = false;
+}

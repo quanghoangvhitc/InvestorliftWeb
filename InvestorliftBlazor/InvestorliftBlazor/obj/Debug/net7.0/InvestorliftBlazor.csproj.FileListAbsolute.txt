@@ -169,3 +169,4 @@ F:\Freelancer\Project001_Investorlift\Website\InvestorliftBlazor\InvestorliftBla
 F:\Freelancer\Project001_Investorlift\Website\InvestorliftBlazor\InvestorliftBlazor\obj\Debug\net7.0\InvestorliftBlazor.genruntimeconfig.cache
 F:\Freelancer\Project001_Investorlift\Website\InvestorliftBlazor\InvestorliftBlazor\obj\Debug\net7.0\ref\InvestorliftBlazor.dll
 F:\Freelancer\Project001_Investorlift\Website\InvestorliftBlazor\InvestorliftBlazor\bin\Debug\net7.0\libman.json
+F:\Freelancer\Project001_Investorlift\Website\InvestorliftBlazor\InvestorliftBlazor\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.Google.dll
