@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "B15xB+yAfghO8BXUlku3h3F7cIFPqTu1+dogllMFHPYkoYx0JVuuRTf7QMWqgWT7vgejgfBF0fC+ok+pJePHgg==",
+  "dgSpecHash": "dwlkUAv3/sQH6AdK+ZVyRrKS7F26nW2gOL71gjpe+79qVVE+dUhP4nMQvjnCmyd5XzSybLPXiGBJZP7eyHKL1g==",
   "success": true,
   "projectFilePath": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\InvestorliftBlazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\quang\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\quang\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\quang\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\quang\\.nuget\\packages\\microsoft.aspnetcore.authentication.facebook\\7.0.11\\microsoft.aspnetcore.authentication.facebook.7.0.11.nupkg.sha512",
+    "C:\\Users\\quang\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.11\\microsoft.aspnetcore.authentication.google.7.0.11.nupkg.sha512",
     "C:\\Users\\quang\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.10\\microsoft.aspnetcore.authorization.7.0.10.nupkg.sha512",
     "C:\\Users\\quang\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.10\\microsoft.aspnetcore.components.7.0.10.nupkg.sha512",
     "C:\\Users\\quang\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.10\\microsoft.aspnetcore.components.analyzers.7.0.10.nupkg.sha512",

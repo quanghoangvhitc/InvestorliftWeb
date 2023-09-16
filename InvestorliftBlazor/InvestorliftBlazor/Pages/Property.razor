@@ -1,13 +1,13 @@
 ﻿@page "/property/{Id}"
-@using InvestorliftBlazor.Data
 @inject DatabaseService DbService
+@inject IJSRuntime JSRuntime
 @inherits OwningComponentBase<HouseService>
 
 <PageHeader></PageHeader>
     
 <div class="container fetch-data">
     <div class="row back-link">
-        <a href="#"><i class="fa fa-arrow-left back-link-symbol" aria-hidden="true"></i>Back to the list </a>
+        <a href="/"><i class="fa fa-arrow-left back-link-symbol" aria-hidden="true"></i>Back to the list </a>
     </div>
     @if (house == null)
     {
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-8">
                 <div class="row title-block">
-                    <a href="#">
+                    <a href="#propertyMap" @onclick="ScrollIntoMap" @onclick:preventDefault>
                         <i class="fa fa-map-marker"></i>
                         @house.FullAddress
                     </a>
@@ -124,10 +124,17 @@
         <div class="row">
             <div class="col-md-12 main-info">
                 <div class="main-info-title">Location</div>
+                <div class="map-wrapper">
+                    <div id="propertyMap"></div>
+                </div>
             </div>
         </div>
     }
 </div>
+
+<a id="btnTop" href="" class="hide-button" @onclick:preventDefault @onclick="BackToTop">
+    <i aria-hidden="true" class="fa fa-arrow-up"></i>
+</a>
 
 @code {
     [Parameter]
@@ -147,5 +154,15 @@
             description = house != null ? await Service.GetSummary(Id) : string.Empty;
             hasItem = house != null;
         }
+    }
+
+    private async Task ScrollIntoMap()
+    {
+        await JSRuntime.InvokeVoidAsync("scrollVertical", "propertyMap");
+    }
+
+    private async Task BackToTop()
+    {
+        await JSRuntime.InvokeVoidAsync("backToTop");
     }
 }

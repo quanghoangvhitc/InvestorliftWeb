@@ -157,6 +157,7 @@
 }
 
 .main-info {
+    padding-top: 20px;
     padding-bottom: 10px;
     font-family: "Varela Round";
 }
@@ -180,4 +181,57 @@
     color: #333;
     padding-top: 10px;
     font-size: 15px;
+}
+
+.map-wrapper {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+#propertyMap {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #707070;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+#btnTop {
+    display: flex;
+    position: fixed;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.813rem;
+    height: 2.813rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    background-color: #5488c7;
+    border-radius: .188rem;
+    line-height: 1.6;
+    font-size: .875rem;
+}
+
+#btnTop:hover {
+    cursor: pointer;
+    background-color: #555;
+}
+
+#btnTop .fa {
+    color: #fff;
+    font-size: 1.313rem;
+}
+
+#btnTop.hide-button {
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btnTop.show-button {
+    opacity: 1;
+    visibility: visible;
 }

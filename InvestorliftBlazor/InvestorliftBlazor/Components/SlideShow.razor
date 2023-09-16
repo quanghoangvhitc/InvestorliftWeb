@@ -1,8 +1,12 @@
-﻿<div class="row slide-show">
+﻿@inject IJSRuntime JSRuntime
+
+<div class="row slide-show">
     <div class="col-md-12 slide-box">
         @for (int i = 0; i < component.Count; i++)
         {
-            <img class="image-slide @cssClass1[i]" src="@imageLinks[i]" />
+            <a href="@(component[i].Replace("-th1.", "."))" data-fancybox="gallery">
+                <img class="image-slide @cssClass[i].Item1" src="@(component[i].Replace("-th1.", "-th2."))" alt="" />
+            </a>
         }
 
         <a class="image-prev" @onclick="() => PlusSlide(true)">&#10094;</a>
@@ -13,8 +17,8 @@
                 @for (int i = 0; i < component.Count; i++)
                 {
                     int index = i;
-                    <div class="thumbnail-column">
-                        <img class="image-thumbnail @cssClass2[i]" src="@component[i]" @onclick="() => SetImage(index)" />
+                    <div id="image-@index" class="thumbnail-column">
+                        <img class="image-thumbnail @cssClass[i].Item2" src="@component[i]" @onclick="() => SetImage(index)" />
                     </div>
                 }
             </div>
@@ -22,13 +26,32 @@
     </div>
 </div>
 
+<script type="text/javascript">
+    $('[data-fancybox="gallery"]').fancybox({
+        afterLoad: function (instance, current) {
+            var pixelRatio = window.devicePixelRatio || 1;
+
+            if (pixelRatio > 1.5) {
+                current.width = current.width / pixelRatio;
+                current.height = current.height / pixelRatio;
+            }
+        },
+        closeExisting: false,
+        loop: true,
+        gutter: 50,
+        keyboard: true,
+        preventCaptionOverlap: false,
+        arrows: true,
+        infobar: true,
+        smallBtn: "auto"
+    });
+</script>
+
 @code {
     [Parameter]
     public List<string> component { get; set; } = new List<string>();
 
-    private List<string> imageLinks { get; set; } = new List<string>();
-    private List<string> cssClass1 { get; set; } = new List<string>();
-    private List<string> cssClass2 { get; set; } = new List<string>();
+    private List<Tuple<string, string>> cssClass { get; set; } = new List<Tuple<string, string>>();
     private int currentPosition;
 
     protected override async Task OnInitializedAsync()
@@ -37,9 +60,7 @@
         {
             component.ForEach(link =>
             {
-                imageLinks.Add(link.Contains("-th1.") ? link.Replace("-th1.", "-th2.") : link);
-                cssClass1.Add(string.Empty);
-                cssClass2.Add(string.Empty);
+                cssClass.Add(new Tuple<string, string>(string.Empty, string.Empty));
             });
             await SetImage(0);
         }
@@ -50,8 +71,8 @@
         currentPosition = position;
         for (int i = 0; i < component.Count; i++)
         {
-            cssClass1[i] = i != currentPosition ? "hide-slide" : "show-slide";
-            cssClass2[i] = i != currentPosition ? string.Empty : "active";
+            cssClass[i] = i != currentPosition ? new Tuple<string, string>("hide-slide", string.Empty) 
+                                               : new Tuple<string, string>("show-slide", "active");
         }
         await InvokeAsync(() => this.StateHasChanged());
     }
@@ -64,5 +85,6 @@
         else
             position = currentPosition == component.Count - 1 ? 0 : currentPosition + 1;
         await SetImage(position);
+        await JSRuntime.InvokeVoidAsync("scrollHorizontal", $"image-{position}");
     }
 }
