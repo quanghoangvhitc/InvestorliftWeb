@@ -8,22 +8,22 @@
     @*<p>This component demonstrates fetching data from a service.</p>*@
 
     @*<InfiniteScroll ObserverTargetId="observerTarget" ObservableTargetReached="(e) => GetData()">
-            <ul>
-                @foreach (var house in Houses)
-                {
-                    <li class="list-group-item">@house.Index: @house.Title - @house.FullAddress (@house.Price)</li>
-                }
+    <ul>
+    @foreach (var house in Houses)
+    {
+    <li class="list-group-item">@house.Index: @house.Title - @house.FullAddress (@house.Price)</li>
+    }
 
-                The target element that we observe. Once this is reached the callback will be triggered.
-                <li class="list-group-item" hidden id="observerTarget"></li>
-            </ul>
-        </InfiniteScroll>*@
+    The target element that we observe. Once this is reached the callback will be triggered.
+    <li class="list-group-item" hidden id="observerTarget"></li>
+    </ul>
+    </InfiniteScroll>*@
 
     <div class="row flex-grow-1">
         <div class="col-md-5 homepage-map">
             @*<div class="leftpagebg d-flex justify-content-center align-items-center">
 
-                </div>*@
+            </div>*@
             @*<div class="leftpagebg"></div>*@
             <img class="img-homepage-map" src="https://investorlift.com/_nuxt/img/static_map.945f231.jpeg" />
         </div>
@@ -113,22 +113,17 @@
 
 @code {
     private House house;
-    //private WeatherForecast[]? forecasts;
     private List<House> Houses = null;
-    private List<House> HousesTmp = new List<House>();
+    private List<House> DataSource = new List<House>();
+    private List<House> DataFilter = null;
     private List<State> States = new List<State>();
     private FilterObject filterObject = new FilterObject();
     private CancellationTokenSource tokenSource = null;
 
-    //private async Task GetData()
-    //{
-    //    var tmp = await house.Get(Houses.Count, 10);
-    //    Houses.AddRange(tmp);
-    //}
     bool IsFilterCompleted = false;
     private void ContentChanged(string value)
     {
-        filterObject.content = value;
+        filterObject.content = value.ToLower();
         Filter();
     }
 
@@ -138,77 +133,89 @@
         Filter();
     }
 
-    private async Task Filter()
+    private void Filter()
     {
-        if (tokenSource != null)
-            tokenSource.Cancel();
-
-        tokenSource = new CancellationTokenSource();
-        filterObject.cancelToken = tokenSource.Token;
-
         IsFilterCompleted = true;
         Houses = null;
+        DataFilter = null;
 
         StateHasChanged();
 
-        HousesTmp = await house.FilterData(filterObject);
-        if (HousesTmp != null)
+        if (DataSource != null)
         {
+            DataFilter = DataSource
+                        .Where(x =>
+                            (
+                                string.IsNullOrEmpty(filterObject.content) ||
+                                (
+                                    !string.IsNullOrEmpty(filterObject.content) &&
+                                    (
+                                        x.Title.ToLower().Contains(filterObject.content)
+                                        || x.County.ToLower().Contains(filterObject.content)
+                                    )
+                                )
+                            ) &&
+                            (
+                                string.IsNullOrEmpty(filterObject.state) ||
+                                (
+                                    !string.IsNullOrEmpty(filterObject.state) &&
+                                    x.States.ToLower() == filterObject.state.Trim().ToLower()
+                                )
+                            )
+                        ).ToList();
+
             Houses = new List<House>();
-            Houses.AddRange(HousesTmp.Take(20).ToArray());
+            Houses.AddRange(DataFilter.Take(10).ToArray());
 
             StateHasChanged();
         }
         IsFilterCompleted = false;
     }
 
-    private async Task GetData()
+    private void GetData()
     {
-        if (HousesTmp == null)
+        if (DataSource == null)
             return;
 
         if (!IsFilterCompleted)
-            Houses.AddRange(HousesTmp.Skip(Houses.Count).Take(10).ToArray());
+        {
+            if (    DataFilter == null ||
+                    (DataFilter != null &&
+                     DataFilter.Count == DataSource.Count)
+            )
+                Houses.AddRange(DataSource.Skip(Houses.Count).Take(10).ToArray());
+            else
+                Houses.AddRange(DataFilter.Skip(Houses.Count).Take(10).ToArray());
+        }
     }
 
     protected override async Task OnInitializedAsync()
     {
-        house = new House(DbService);
-        //forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
+        if (tokenSource != null)
+            tokenSource.Cancel();
+
+        tokenSource = new CancellationTokenSource();
+
+        if (house == null)
+            house = new House(DbService);
     }
 
     protected override async void OnAfterRender(bool firstRender)
     {
         if (firstRender)
         {
-            //var timer = new Timer(new TimerCallback(_ =>
-            //{
-            //    uriHelper.NavigateTo(uriHelper.Uri, forceLoad: true);
-            //}), null, 2000, 2000);
-
             States = await house.GetStates();
 
-            HousesTmp = await house.GetAll();
+            DataSource = await house.GetAll(tokenSource.Token);
 
-            if (HousesTmp != null)
+            if (DataSource != null)
             {
                 Houses = new List<House>();
-                Houses.AddRange(HousesTmp.Take(20).ToArray());
+                Houses.AddRange(DataSource.Take(10).ToArray());
 
                 StateHasChanged();
             }
         }
     }
-
-    //private async void ReloadData()
-    //{
-    //    Houses = null;
-
-    //    HousesTmp = await house.GetAll();
-
-    //    Houses.AddRange(HousesTmp.Take(20).ToArray());
-
-    //    StateHasChanged();
-    //}
 }
 
