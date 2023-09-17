@@ -43,27 +43,10 @@ namespace InvestorliftBlazor.Data
 			return await DbService.GetListAsync<House>($"SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK) ORDER BY PublishedDate DESC OFFSET {offset} ROWS FETCH NEXT {limit} ROWS ONLY;");
 		}
 
-        public async Task<List<House>> GetAll()
+        public async Task<List<House>> GetAll(CancellationToken cancellationToken)
         {
-            return await DbService.GetListAsync<House>($"SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK) ORDER BY PublishedDate DESC");
+            return await DbService.GetListObjectAsync<House>($"SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK) ORDER BY PublishedDate DESC", cancellationToken: cancellationToken);
         }
-
-		public async Task<List<House>> FilterData(FilterObject filterObject)
-		{
-			string condition = string.Empty;
-			if (!string.IsNullOrEmpty(filterObject.content))
-			{
-                string content = filterObject.content.ToLower();
-                condition += $" AND (Title LIKE N'%{content}%' OR County LIKE N'%{content}%')";
-			}
-
-			if (!string.IsNullOrEmpty(filterObject.state))
-				condition += $" AND States = '{filterObject.state}'";
-
-
-			string q = $"SELECT ROW_NUMBER() OVER(ORDER BY (SELECT 1)) AS [Index], * FROM HOUSE (NOLOCK) WHERE 1 = 1 {condition} ORDER BY PublishedDate DESC";
-            return await DbService.GetListObjectAsync<House>(q, cancellationToken: filterObject.cancelToken);
-		}
 
 		public async Task<List<State>> GetStates()
 		{
