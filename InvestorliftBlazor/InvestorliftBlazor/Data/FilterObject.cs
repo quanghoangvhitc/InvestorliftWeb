@@ -5,7 +5,6 @@ namespace InvestorliftBlazor.Data
 	{
 		public string content { get; set; }
 		public string state { get; set; }
-		public CancellationToken cancelToken { get; set; }
 	}
 }
 
