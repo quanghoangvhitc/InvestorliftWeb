@@ -1,4 +1,9 @@
-﻿<div class="row headerpage">
+﻿@using System.Security.Claims
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor _httpContextAccessor
+@inject NavigationManager Navigation
+
+<div class="row headerpage">
     <div class="toppage">
         <div class="toppagerow">
             <div class="col-sm-6 col-md-6">
@@ -33,11 +38,33 @@
             </div>
 
             <div class="col-md-8">
-                <div class="toppagenav-not-logged">
-                    <a href="#login" class="sign-in" data-bs-toggle="modal" data-bs-target="#modalLogin">
-                        <i class="fa fa-user"></i> Log In
-                    </a>
-                </div>
+                @if (User.Identity.Name != null)
+                {
+                    <div class="toppagenav-logged">
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="@Avatar" alt="" class="avatar">
+                                Hi, @Surname
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="/logout">Log Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="toppagenav-not-logged">
+                        <a href="#login" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                            <i class="fa fa-sign-in" aria-hidden="true"></i> Log In
+                        </a>
+                        <a href="#register" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalRegister">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i> Register
+                        </a>
+                    </div>
+                }
             </div>
         </div>
     </div>
@@ -53,21 +80,64 @@
             <div class="modal-body">
                 <div class="container-fluid">
                     <div class="row pb-3">
-                        <button class="btn btn-outline-danger">
-                            <i class="fa fa-google"></i>Sign in with Google
-                        </button>
+                        <a class="btn btn-outline-danger" href="/login/Google?returnUrl=@Uri.EscapeUriString(Navigation.Uri)">
+                            <i class="fa fa-google m-2"></i>Sign in with Google
+                        </a>
                     </div>
                     <div class="row">
-                        <button class="btn btn-outline-primary">
-                            <i class="fa fa-facebook"></i>Sign in with Facebook
-                        </button>
+                        <a class="btn btn-outline-primary" href="/login/Facebook?returnUrl=@Uri.EscapeUriString(Navigation.Uri)">
+                            <i class="fa fa-facebook m-2"></i>Sign in with Facebook
+                        </a>
                     </div>
                 </div>
+            </div>
+            <div class="modal-footer">
+
             </div>
         </div>
     </div>
 </div>
 
+<div class="modal fade" id="modalRegister" tabindex="-1" aria-labelledby="modalRegisterLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalRegisterLabel">Register</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
 @code {
-    private bool loggedIn { get; set; } = false;
+    private ClaimsPrincipal User{ get; set; }
+    private string GivenName{ get; set; }
+    private string Surname{ get; set; }
+    private string Avatar{ get; set; }
+    private string Email { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        try
+        {
+            // Set the user to determine if they are logged in
+            User = _httpContextAccessor.HttpContext.User;
+            // Try to get the GivenName
+            var givenName = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.GivenName);
+            GivenName = givenName != null ? givenName.Value : User.Identity.Name;
+            // Try to get the Surname
+            var surname = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Surname);
+            Surname = surname != null ? surname.Value : "Guest";
+            // Try to get the Surname
+            var email = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Email);
+            Email = email != null ? email.Value : string.Empty;
+            // Try to get Avatar
+            var avatar = _httpContextAccessor.HttpContext.User.FindFirst("picture");
+            Avatar = avatar != null ? avatar.Value : "/images/default_avatar.jpg";
+        }
+        catch { }
+    }
 }

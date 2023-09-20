@@ -113,6 +113,10 @@
     position: relative;
 }
 
+.prop-list > div {
+    padding-left: 10px;
+}
+
 .features-row {
     border-bottom: 0 solid #e0e0e0;
     border-top: 1px solid #e0e0e0;
@@ -155,6 +159,55 @@
     padding-right: 0!important;
     padding-left: 0!important;
 }
+
+.contact {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: "Varela Round";
+}
+    
+    .contact > div {
+        padding-left: 0;
+    }
+
+        .contact > div > h3 {
+            color: black;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 400;
+            padding-left: 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid black;
+        }
+
+.contact-number {
+    padding-right: 0;
+}
+
+    .contact-number > div {
+        padding-right: 0;
+    }
+
+        .contact-number > div > div {
+            padding-left: 0;
+            font-size: 28px;
+            color: #000;
+            letter-spacing: .05em;
+            text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+            color: #274abb;
+        }
+
+        .contact-number > div > div.col-7 {
+            text-align: right;
+        }
+
+            .contact-number > div > div > a {
+                text-decoration: none;
+                -webkit-text-decoration: none;
+                color: #209808;
+                cursor: pointer;
+            }
 
 .main-info {
     padding-top: 20px;
