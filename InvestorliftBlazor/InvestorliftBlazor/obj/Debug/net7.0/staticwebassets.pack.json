@@ -1,147 +1,155 @@
 {
   "Files": [
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/obj/Debug/net7.0/scopedcss/projectbundle/InvestorliftBlazor.bundle.scp.css",
-      "PackagePath": "staticwebassets/InvestorliftBlazor.bundle.scp.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\InvestorliftBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\InvestorliftBlazor.bundle.scp.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/detailpage.css",
-      "PackagePath": "staticwebassets/css/detailpage.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\detailpage.css",
+      "PackagePath": "staticwebassets\\css\\detailpage.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/css/font-awesome.css",
-      "PackagePath": "staticwebassets/css/font-awesome/css/font-awesome.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/css/font-awesome.css.map",
-      "PackagePath": "staticwebassets/css/font-awesome/css/font-awesome.css.map"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\css\\font-awesome.css.map",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\css\\font-awesome.css.map"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/css/font-awesome.min.css",
-      "PackagePath": "staticwebassets/css/font-awesome/css/font-awesome.min.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/FontAwesome.otf",
-      "PackagePath": "staticwebassets/css/font-awesome/fonts/FontAwesome.otf"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.eot",
-      "PackagePath": "staticwebassets/css/font-awesome/fonts/fontawesome-webfont.eot"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.svg",
-      "PackagePath": "staticwebassets/css/font-awesome/fonts/fontawesome-webfont.svg"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.ttf",
-      "PackagePath": "staticwebassets/css/font-awesome/fonts/fontawesome-webfont.ttf"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.woff",
-      "PackagePath": "staticwebassets/css/font-awesome/fonts/fontawesome-webfont.woff"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/font-awesome/fonts/fontawesome-webfont.woff2",
-      "PackagePath": "staticwebassets/css/font-awesome/fonts/fontawesome-webfont.woff2"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\css\\font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/homepage.css",
-      "PackagePath": "staticwebassets/css/homepage.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/FONT-LICENSE",
-      "PackagePath": "staticwebassets/css/open-iconic"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/ICON-LICENSE",
-      "PackagePath": "staticwebassets/css/open-iconic"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/README.md",
-      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/slide-show.css",
-      "PackagePath": "staticwebassets/css/slide-show.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\css\\slide-show.css",
+      "PackagePath": "staticwebassets\\css\\slide-show.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/fancybox/jquery.fancybox.css",
-      "PackagePath": "staticwebassets/fancybox/jquery.fancybox.css"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\fancybox\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\fancybox\\jquery.fancybox.css"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/fancybox/jquery.fancybox.js",
-      "PackagePath": "staticwebassets/fancybox/jquery.fancybox.js"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\fancybox\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\fancybox\\jquery.fancybox.js"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/Observer.js",
-      "PackagePath": "staticwebassets/js/Observer.js"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\images\\default_avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\default_avatar.jpg"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/SlideShow.js",
-      "PackagePath": "staticwebassets/js/SlideShow.js"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\Observer.js",
+      "PackagePath": "staticwebassets\\js\\Observer.js"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/bootstrap/js/bootstrap.min.js",
-      "PackagePath": "staticwebassets/js/bootstrap/js/bootstrap.min.js"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\SlideShow.js",
+      "PackagePath": "staticwebassets\\js\\SlideShow.js"
     },
     {
-      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/jquery/jquery.min.js",
-      "PackagePath": "staticwebassets/js/jquery/jquery.min.js"
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.InvestorliftBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Freelancer\\Project001_Investorlift\\Website\\InvestorliftBlazor\\InvestorliftBlazor\\wwwroot\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.InvestorliftBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.InvestorliftBlazor.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.InvestorliftBlazor.props",
       "PackagePath": "build\\InvestorliftBlazor.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.InvestorliftBlazor.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.InvestorliftBlazor.props",
       "PackagePath": "buildMultiTargeting\\InvestorliftBlazor.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.InvestorliftBlazor.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.InvestorliftBlazor.props",
       "PackagePath": "buildTransitive\\InvestorliftBlazor.props"
     }
   ],

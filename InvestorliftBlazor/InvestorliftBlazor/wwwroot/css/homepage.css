@@ -77,10 +77,34 @@
         color: #274abb;
         text-decoration: none;
         transition: color .2s;
+        margin-left: 10px;
     }
 
         .toppagenav-not-logged > a > i {
             padding-right: 5px;
+        }
+
+.toppagenav-logged {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+    
+    .toppagenav-logged > div > a {
+        color: #000;
+        text-decoration: none;
+        -webkit-text-decoration: none;
+        padding-right: 5px;
+    }
+
+        .toppagenav-logged div > a > img.avatar {
+            vertical-align: middle;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-right: 5px;
         }
 
 .mainpage {
