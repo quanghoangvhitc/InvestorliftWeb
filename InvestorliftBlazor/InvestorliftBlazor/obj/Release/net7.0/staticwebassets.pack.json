@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets/css/homepage.css"
     },
     {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/homepagenomap.css",
+      "PackagePath": "staticwebassets/css/homepagenomap.css"
+    },
+    {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "PackagePath": "staticwebassets/css/open-iconic"
     },
@@ -113,12 +117,20 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/images/default_avatar.jpg",
+      "PackagePath": "staticwebassets/images/default_avatar.jpg"
+    },
+    {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/Observer.js",
       "PackagePath": "staticwebassets/js/Observer.js"
     },
     {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/SlideShow.js",
       "PackagePath": "staticwebassets/js/SlideShow.js"
+    },
+    {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/bootstrap/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap/js/bootstrap.bundle.min.js"
     },
     {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/bootstrap/js/bootstrap.min.js",

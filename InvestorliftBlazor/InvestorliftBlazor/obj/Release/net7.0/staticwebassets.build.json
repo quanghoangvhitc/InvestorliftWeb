@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NyOJ99/+iXBGrzeDSjLqnqM/127NDus6INfMZQL9rOY=",
+  "Hash": "egXWa7/BcbXjauhP5r5eJGuj6OlOU1wQKRDwW254G08=",
   "Source": "InvestorliftBlazor",
   "BasePath": "_content/InvestorliftBlazor",
   "Mode": "Default",
@@ -272,6 +272,23 @@
       "OriginalItemSpec": "wwwroot/css/homepage.css"
     },
     {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/homepagenomap.css",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "css/homepagenomap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/homepagenomap.css"
+    },
+    {
       "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "InvestorliftBlazor",
       "SourceType": "Discovered",
@@ -508,6 +525,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/images/default_avatar.jpg",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "images/default_avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/default_avatar.jpg"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/bootstrap/js/bootstrap.bundle.min.js",
+      "SourceId": "InvestorliftBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/",
+      "BasePath": "_content/InvestorliftBlazor",
+      "RelativePath": "js/bootstrap/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/bootstrap/js/bootstrap.bundle.min.js"
     },
     {
       "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/InvestorliftGithub/InvestorliftWeb/InvestorliftBlazor/InvestorliftBlazor/wwwroot/js/bootstrap/js/bootstrap.min.js",
